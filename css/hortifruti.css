@@ -1,21 +1,76 @@
 body {
-    background-color: #FEFAE0;
+	background-color: #FEFAE0;
+	/* font-family: 'Spline Sans Mono', monospace; */
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 header {
-    background-color: #DDA15E;
-    padding: 20px 0;
+	background-color: #DDA15E;
 }
 
-/* header img, footer img {
-    width: 15%;
-    height: 15%;
-} */
+.caixa img {
+	float: left;
+	width: 10%;
+	height: 10%;
+}
 
 .caixa {
+	padding-bottom: 7%;
 	position: relative;
-	width: 940px;
 	margin: 0 auto;
+}
+
+.caixa li {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	display: inline;
+}
+
+.frutas {
+	margin: 10px 40px;
+	padding: 10px;
+	width: 445px;
+	border-radius: 4px;
+	box-shadow: inset 1px 1px 4px #999;
+	float: left;
+	background-color: #ECD995;
+	color: #333;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.frutas li {
+	display: inline-block;
+	vertical-align: top;
+	width: 140px;
+	margin: 2px;
+	padding-bottom: 10px;
+}
+
+.legumes {
+	margin: 10px 40px;
+	padding: 10px;
+	width: 445px;
+	border-radius: 4px;
+	box-shadow: inset 1px 1px 4px #999;
+	float: left;
+	background-color: #ECD995;
+	color: #333;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.legumes li {
+	display: inline-block;
+	vertical-align: top;
+	width: 140px;
+	margin: 2px;
+	padding-bottom: 10px;
 }
 
 nav {
@@ -37,21 +92,124 @@ nav a {
 	text-decoration: none;
 }
 
-.frutas img, .legumes img {
-    width: 15%;
-    height: 15%;
+p {
+	font-size: 22px;
+	color: #000000;
 }
 
+h2 {
+	font-size: 2em;
+	font-weight: bold;
+	color: #606C38;
+}
+
+.intro {
+	margin: 50px 0;
+}
+
+.intro h1 {
+	font-family: 'Galada', cursive;
+	font-size: 4em;
+	color: #D16C53;
+}
+
+.frutas img,
+.legumes img {
+	width: 70%;
+	height: 70%;
+}
+
+/* ESTILIZAÇÃO CONTATO */
+
+form {
+	width: 940px;
+	margin: 0 auto;
+	padding: 40px 0;
+}
+
+form label,
+form legend {
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+	color: #283618;
+	margin: 0 0 10px;
+}
+
+span {
+	color: #283618;
+	font-weight: bold;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+	background-color: #ECD995;
+	border: 3px solid #606C38;
+	border-radius: 20px;
+}
+
+.input-padrao:hover {
+	border-color: #283618;
+}
+
+.meio-de-contato,
+.marcador-email {
+	margin-right: 12px;
+}
+
+form .horario {
+	margin-top: 10px;
+}
+
+.horario select {
+	padding: 5px;
+	background-color: #ECD995;
+	border: 3px solid #606C38;
+	border-radius: 10px;
+}
+
+.horario select:hover {
+	border-color: #283618;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width: 40%;
+	padding: 15px 0;
+	background: #606C38;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 25px;
+	margin-top: 20px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: #283618;
+	transform: scale(1.1);
+}
+
+/* FIM */
+
 footer {
-    background-color: #DDA15E;
+	background-color: #DDA15E;
 }
 
 footer img {
-    width: 150px;
-    height: 150px;
-    display: inline;
+	width: 150px;
+	height: 150px;
+	display: inline;
 }
 
 .social li {
-    display: inline;
+	display: inline;
 }
