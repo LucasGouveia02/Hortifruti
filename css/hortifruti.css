@@ -1,0 +1,57 @@
+body {
+    background-color: #FEFAE0;
+}
+
+header {
+    background-color: #DDA15E;
+    padding: 20px 0;
+}
+
+/* header img, footer img {
+    width: 15%;
+    height: 15%;
+} */
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 50%;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+.frutas img, .legumes img {
+    width: 15%;
+    height: 15%;
+}
+
+footer {
+    background-color: #DDA15E;
+}
+
+footer img {
+    width: 150px;
+    height: 150px;
+    display: inline;
+}
+
+.social li {
+    display: inline;
+}
