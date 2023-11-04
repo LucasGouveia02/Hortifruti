@@ -29,8 +29,12 @@ header {
 	display: inline;
 }
 
+.container h1 {
+	padding-top: 10px;
+}
+
 .frutas {
-	margin: 10px 40px;
+	margin: 10px 50px;
 	padding: 10px;
 	width: 445px;
 	border-radius: 4px;
@@ -52,7 +56,7 @@ header {
 }
 
 .legumes {
-	margin: 10px 40px;
+	margin: 10px 50px;
 	padding: 10px;
 	width: 445px;
 	border-radius: 4px;
@@ -103,10 +107,6 @@ h2 {
 	color: #606C38;
 }
 
-.intro {
-	/* margin: 0px 0; */
-}
-
 h1 {
 	font-family: 'Galada', cursive;
 	font-size: 4em;
@@ -125,8 +125,8 @@ h1 {
 
 .frutas img,
 .legumes img {
-	width: 70%;
-	height: 70%;
+	width: 145px;
+	height: 145px;
 }
 
 /* ESTILIZAÇÃO CONTATO */
@@ -212,14 +212,64 @@ form .horario {
 
 footer {
 	background-color: #DDA15E;
+	height: 150px;
+	clear: both;
 }
 
 footer img {
-	width: 150px;
-	height: 150px;
-	display: inline;
+	width: 10%;
+	height: 10%;
+	float: left;
+}
+
+footer ul {
+	float: right;
+}
+
+.copyright {
+	text-align: center;
+	padding-top: 3%;
+}
+
+.rodape {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.social {
+	position: absolute;
+	top: 12px;
+	right: 0;
+	padding-top: 3%;
 }
 
 .social li {
-	display: inline;
+	float: left;
+	margin-left: 25px;
+}
+
+.social a {
+	/* tamanho da imagem */
+	height: 32px;
+	width: 32px;
+
+	/* image replacement */
+	display: block;
+	text-indent: -9999px;
+}
+
+.social a[href*="http://facebook.com"] {
+	background-image: url(../img/Social/facebook-removebg-preview.png);
+}
+
+.social a[href*="twitter.com"] {
+	background-image: url(../img/Social/xTwitter-removebg-preview.png);
+}
+
+.social a[href*="instagram.com"] {
+	background-image: url(../img/Social/instagram-logo-removebg-preview.png);
+}
+
+footer .rodape {
+	position: relative;
 }
