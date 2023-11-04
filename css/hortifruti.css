@@ -29,8 +29,12 @@ header {
 	display: inline;
 }
 
-.container h1 {
-	padding-top: 10px;
+#sobre {
+	margin-top: 20px;
+}
+
+.row {
+	margin-top: 50px;
 }
 
 .frutas {
@@ -75,6 +79,14 @@ header {
 	width: 140px;
 	margin: 2px;
 	padding-bottom: 10px;
+}
+
+.contato {
+	margin-top: 50px;
+}
+
+#sobreIvane {
+	margin-top: 50px;
 }
 
 nav {
@@ -208,12 +220,13 @@ form .horario {
 	transform: scale(1.1);
 }
 
-/* FIM */
+/* Rodapé */
 
 footer {
 	background-color: #DDA15E;
 	height: 150px;
 	clear: both;
+	margin-top: 50px;
 }
 
 footer img {
@@ -241,6 +254,7 @@ footer ul {
 	top: 12px;
 	right: 0;
 	padding-top: 3%;
+	padding-right: 3%;
 }
 
 .social li {
