@@ -104,8 +104,12 @@ nav a {
 	text-transform: uppercase;
 	color: #FFFFFF;
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 24px;
 	text-decoration: none;
+}
+
+nav a:hover {
+	color: #D16C53;
 }
 
 p {
@@ -161,6 +165,10 @@ form legend {
 span {
 	color: #283618;
 	font-weight: bold;
+}
+
+#contato {
+	padding: 0 0 25px 0;
 }
 
 .input-padrao {
@@ -242,6 +250,7 @@ footer ul {
 .copyright {
 	text-align: center;
 	padding-top: 3%;
+	color: #FFFFFF;
 }
 
 .rodape {
