@@ -1,0 +1,298 @@
+body {
+	background-color: #FEFAE0;
+	/* font-family: 'Spline Sans Mono', monospace; */
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+	background-color: #DDA15E;
+}
+
+.caixa img {
+	float: left;
+	width: 10%;
+	height: 10%;
+}
+
+.caixa {
+	padding-bottom: 7%;
+	position: relative;
+	margin: 0 auto;
+}
+
+.caixa li {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	display: inline;
+}
+
+#sobre {
+	margin-top: 20px;
+}
+
+.row {
+	margin-top: 50px;
+}
+
+.frutas {
+	margin: 10px 50px;
+	padding: 10px;
+	width: 445px;
+	border-radius: 4px;
+	box-shadow: inset 1px 1px 4px #999;
+	float: left;
+	background-color: #ECD995;
+	color: #333;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.frutas li {
+	display: inline-block;
+	vertical-align: top;
+	width: 140px;
+	margin: 2px;
+	padding-bottom: 10px;
+}
+
+.legumes {
+	margin: 10px 50px;
+	padding: 10px;
+	width: 445px;
+	border-radius: 4px;
+	box-shadow: inset 1px 1px 4px #999;
+	float: left;
+	background-color: #ECD995;
+	color: #333;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.legumes li {
+	display: inline-block;
+	vertical-align: top;
+	width: 140px;
+	margin: 2px;
+	padding-bottom: 10px;
+}
+
+.contato {
+	margin-top: 50px;
+}
+
+#sobreIvane {
+	margin-top: 50px;
+}
+
+nav {
+	position: absolute;
+	top: 50%;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #D16C53;
+}
+
+p {
+	font-size: 22px;
+	color: #000000;
+}
+
+h2 {
+	font-size: 2em;
+	font-weight: bold;
+	color: #606C38;
+}
+
+h1 {
+	font-family: 'Galada', cursive;
+	font-size: 4em;
+	color: #D16C53;
+}
+
+.col-4 img {
+	padding-top: 10px;
+	width: 100%;
+	border-radius: 15%;
+}
+
+.container p {
+	text-align: justify;
+}
+
+.frutas img,
+.legumes img {
+	width: 145px;
+	height: 145px;
+}
+
+/* ESTILIZAÇÃO CONTATO */
+
+form {
+	width: 940px;
+	margin: 0 auto;
+	padding: 40px 0;
+}
+
+form label,
+form legend {
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+	color: #283618;
+	margin: 0 0 10px;
+}
+
+span {
+	color: #283618;
+	font-weight: bold;
+}
+
+#contato {
+	padding: 0 0 25px 0;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+	background-color: #ECD995;
+	border: 3px solid #606C38;
+	border-radius: 20px;
+}
+
+.input-padrao:hover {
+	border-color: #283618;
+}
+
+.meio-de-contato,
+.marcador-email {
+	margin-right: 12px;
+}
+
+form .horario {
+	margin-top: 10px;
+}
+
+.horario select {
+	padding: 5px;
+	background-color: #ECD995;
+	border: 3px solid #606C38;
+	border-radius: 10px;
+}
+
+.horario select:hover {
+	border-color: #283618;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width: 40%;
+	padding: 15px 0;
+	background: #606C38;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 25px;
+	margin-top: 20px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: #283618;
+	transform: scale(1.1);
+}
+
+/* Rodapé */
+
+footer {
+	background-color: #DDA15E;
+	height: 150px;
+	clear: both;
+	margin-top: 50px;
+}
+
+footer img {
+	width: 10%;
+	height: 10%;
+	float: left;
+}
+
+footer ul {
+	float: right;
+}
+
+.copyright {
+	text-align: center;
+	padding-top: 3%;
+	color: #FFFFFF;
+}
+
+.rodape {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.social {
+	position: absolute;
+	top: 12px;
+	right: 0;
+	padding-top: 3%;
+	padding-right: 3%;
+}
+
+.social li {
+	float: left;
+	margin-left: 25px;
+}
+
+.social a {
+	/* tamanho da imagem */
+	height: 32px;
+	width: 32px;
+
+	/* image replacement */
+	display: block;
+	text-indent: -9999px;
+}
+
+.social a[href*="http://facebook.com"] {
+	background-image: url(../img/Social/facebook-removebg-preview.png);
+}
+
+.social a[href*="twitter.com"] {
+	background-image: url(../img/Social/xTwitter-removebg-preview.png);
+}
+
+.social a[href*="instagram.com"] {
+	background-image: url(../img/Social/instagram-logo-removebg-preview.png);
+}
+
+footer .rodape {
+	position: relative;
+}
