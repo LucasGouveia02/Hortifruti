@@ -29,6 +29,11 @@ header {
 	display: inline;
 }
 
+.home img {
+	height: 100%;
+	width: 100%;
+}
+
 #sobre {
 	margin-top: 20px;
 }
